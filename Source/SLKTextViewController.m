@@ -1529,7 +1529,7 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
     }
     
     // Animated only if the view already appeared.
-    [self textDidUpdate:self.isViewVisible];
+    [self textDidUpdate:false];
 }
 
 - (void)slk_didChangeTextViewSelectedRange:(NSNotification *)notification
